@@ -39,7 +39,7 @@
 
   <!-- paths -->
   <PropertyGroup>
-    <GamePath>G:\Steam\steamapps\common\Stardew Valley 1.5.6</GamePath>
+    <GamePath>D:\SteamLibrary\steamapps\common\Stardew Valley</GamePath>
     <GameModsPath>$(GamePath)/Mods - Build/$(Configuration)</GameModsPath>
     <ModZipPath>$(GamePath)/Mods - Build/Archive</ModZipPath>
   </PropertyGroup>
@@ -86,7 +86,7 @@
   <!-- mod dependencies -->
   <ItemGroup>
     <Reference Include="SpaceCore">
-      <HintPath>depend\SpaceCore.dll</HintPath>
+      <HintPath>D:\SteamLibrary\steamapps\common\Stardew Valley\Mods\SpaceCore1.17.2-1348-1-17-2-1693525373\SpaceCore\SpaceCore.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <!--<Reference Include="GenericModConfigMenu">
@@ -102,7 +102,7 @@
   </ItemGroup>
 
   <!-- shared projects -->
-  <Import Project="..\Shared\Shared.projitems" Label="Shared" Condition="Exists('..\Shared\Shared.projitems')" />
+  <Import Project="C:\Users\chris\Downloads\temp-temp\Shared.projitems" Label="Shared" Condition="Exists('C:\Users\chris\Downloads\temp-temp\Shared.projitems')" />
 
   <!-- file exceptions -->
   <ItemGroup>
