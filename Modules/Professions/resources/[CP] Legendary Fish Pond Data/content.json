@@ -9,7 +9,7 @@
           "RequiredTags": [
             "item_angler"
           ],
-          "SpawnTime": 999999,
+          "SpawnTime": 10,
           "ProducedItems": [
             {
               "RequiredPopulation": 0,
@@ -39,14 +39,47 @@
               "MinQuantity": 1,
               "MaxQuantity": 1
             }
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.1,
+              "ItemID": 74,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+            {
+              "RequiredPopulation": 3,
+              "Chance": 0.3,
+              "ItemID": 74,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+            {
+              "RequiredPopulation": 8,
+              "Chance": 0.5,
+              "ItemID": 74,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
           ],
-          "PopulationGates": null
+          "PopulationGates": {
+            "2": [
+            "74 1 2",
+            ],
+
+            "4": [
+            "74 2 3",
+            ],
+
+            "6": [
+            "74 3 5",
+            ],
+          }
         },
         "item_glacierfish": {
           "RequiredTags": [
             "item_glacierfish"
           ],
-          "SpawnTime": 999999,
+          "SpawnTime": 10,
           "ProducedItems": [
             {
               "RequiredPopulation": 0,
@@ -90,14 +123,47 @@
               "MinQuantity": 1,
               "MaxQuantity": 1
             }
+                        {
+              "RequiredPopulation": 0,
+              "Chance": 0.1,
+              "ItemID": 74,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+            {
+              "RequiredPopulation": 3,
+              "Chance": 0.3,
+              "ItemID": 74,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+            {
+              "RequiredPopulation": 8,
+              "Chance": 0.5,
+              "ItemID": 74,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
           ],
-          "PopulationGates": null
+          "PopulationGates": {
+            "2": [
+            "74 1 2",
+            ],
+
+            "4": [
+            "74 2 3",
+            ],
+
+            "6": [
+            "74 3 5",
+            ],
+          }
         },
         "item_crimsonfish": {
           "RequiredTags": [
             "item_crimsonfish"
           ],
-          "SpawnTime": 999999,
+          "SpawnTime": 10,
           "ProducedItems": [
             {
               "RequiredPopulation": 0,
@@ -155,14 +221,47 @@
               "MinQuantity": 1,
               "MaxQuantity": 1
             }
+                        {
+              "RequiredPopulation": 0,
+              "Chance": 0.1,
+              "ItemID": 74,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+            {
+              "RequiredPopulation": 3,
+              "Chance": 0.3,
+              "ItemID": 74,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+            {
+              "RequiredPopulation": 8,
+              "Chance": 0.5,
+              "ItemID": 74,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
           ],
-          "PopulationGates": null
+          "PopulationGates": {
+            "2": [
+            "74 1 2",
+            ],
+
+            "4": [
+            "74 2 3",
+            ],
+
+            "6": [
+            "74 3 5",
+            ],
+          }
         },
         "item_legend": {
           "RequiredTags": [
             "item_legend"
           ],
-          "SpawnTime": 999999,
+          "SpawnTime": 10,
           "ProducedItems": [
             {
               "RequiredPopulation": 0,
@@ -185,14 +284,48 @@
               "MinQuantity": 1,
               "MaxQuantity": 1
             }
+                        {
+              "RequiredPopulation": 0,
+              "Chance": 0.1,
+              "ItemID": 74,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+            {
+              "RequiredPopulation": 3,
+              "Chance": 0.3,
+              "ItemID": 74,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+            {
+              "RequiredPopulation": 8,
+              "Chance": 0.5,
+              "ItemID": 74,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
           ],
-          "PopulationGates": null
+          "PopulationGates": {
+            "2": [
+            "74 1 2",
+            ],
+
+            "4": [
+            "74 2 3",
+            ],
+
+            "6": [
+            "74 3 5",
+            ],
+          }
+        },
         },
         "item_mutant_carp": {
           "RequiredTags": [
             "item_mutant_carp"
           ],
-          "SpawnTime": 999999,
+          "SpawnTime": 10,
           "ProducedItems": [
             {
               "RequiredPopulation": 0,
@@ -222,11 +355,42 @@
               "MinQuantity": 1,
               "MaxQuantity": 1
             }
+                        {
+              "RequiredPopulation": 0,
+              "Chance": 0.1,
+              "ItemID": 74,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+            {
+              "RequiredPopulation": 3,
+              "Chance": 0.3,
+              "ItemID": 74,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+            {
+              "RequiredPopulation": 8,
+              "Chance": 0.5,
+              "ItemID": 74,
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
           ],
-          "PopulationGates": null
-        }
-      }
-    },
+          "PopulationGates": {
+            "2": [
+            "74 1 2",
+            ],
+
+            "4": [
+            "74 2 3",
+            ],
+
+            "6": [
+            "74 3 5",
+            ],
+          }
+        },
     {
       "Action": "EditData",
       "Target": "Data/FishPondData",
